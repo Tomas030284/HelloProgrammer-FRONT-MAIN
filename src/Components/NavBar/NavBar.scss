@@ -61,7 +61,7 @@
         
     }
     .nav__menu--item a:hover { 
-        color: rgb(177, 43, 43);
+        color: #E0302F;
     }
 
     .nav__menuHamburger.is-active{
@@ -72,7 +72,7 @@
     .nav__menu {
 
         width: 100%;
-        border-bottom: 1px solid #E0752F;
+        border-bottom: 1px solid #E0302F;
 
         .navbar-toggler {
             margin-right: 18px;
@@ -127,7 +127,7 @@
         }
 
         .nav__menu--item a:hover { 
-            color: rgb(177, 43, 43);
+            color: #E0302F;
         }
       }
 }

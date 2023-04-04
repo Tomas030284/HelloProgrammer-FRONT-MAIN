@@ -137,11 +137,11 @@ const Formulario = () => {
             <div className="formulario_globo__content__boton">
               <button type="submit" className="button_send">
                 {" "}
-                SEND{" "}
+                Send{" "}
               </button>
               {formularioEnviado && (
                 <div className="exito_div">
-                  <p className="exito">Form sent successfully</p>
+                  <p className="exito">Information sent successfully</p>
                 </div>
               )}
             </div>

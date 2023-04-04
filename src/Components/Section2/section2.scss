@@ -20,13 +20,13 @@
     .section2__container{
         width: 100%;
         height: 58%;
-        border-left: 30px solid #E0752F;
+        border-left: 30px solid #3281DD;
         margin:-0.5px;
         @media (max-width: 1024px){
-            border-left: 20px solid #E0752F;
+            border-left: 20px solid #3281DD;
         }
         @media (max-width: 768px){
-            border-left: 15px solid #E0752F;
+            border-left: 15px solid #3281DD;
         }   
         .section2__container__texto{
             display: flex;

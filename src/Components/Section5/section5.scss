@@ -41,7 +41,7 @@ footer{
       width: 290px;
 
       .formulario_globo__content_text_orange {
-        color: #e0752f;
+        color: #E0302F;
       }
     }
     .formulario_globo__content__form {
@@ -58,16 +58,18 @@ footer{
         // justify-content: center;
       }
       .exito{
-        color: green;
+        color: white;
         font-size: 12px;
         display: flex;
 
       }
       .exito_div{
         display: flex;
-        border: 1px solid green;
+        border: 1px solid white;
+        background-color: green;
         padding: 10px;
-        margin-top: 10px;
+        padding-top: 20px;
+        margin-top: 15px;
         justify-content: center;
         align-items: center;
       }
@@ -90,13 +92,18 @@ footer{
       top: 11%;
     }
     .button_send {
-      background-color: #e0752f;
+      background-color: #E0302F;
       color: #fff;
       border-radius: 1.5rem;
       border-style: none;
-      padding: 1%;
-      width: 6rem;
+      //padding: 1%;
+      //width: 6rem;
       text-align: center;
+
+      font-size: 1rem;
+      padding: 14px 32px;
+      width: fit-content;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
   }
   @media (max-width: 1024px) {
@@ -131,7 +138,7 @@ footer{
     font-size: 39px;
 
     .formulario_globo__content_text_orange{
-      color:#e0752f;
+      color:#E0302F;
     }
 
   }
@@ -174,13 +181,18 @@ footer{
   }
 
   .button_send {
-    background-color: #e0752f;
+    background-color: #E0302F;
     color: #fff;
     border-radius: 1.5rem;
     border-style: none;
-    padding: 1%;
-    width: 6rem;
+    //padding: 1%;
+    //width: 6rem;
+    width: fit-content;
     text-align: center;
+
+    font-size: 1rem;
+    padding: 14px 32px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 }
 
