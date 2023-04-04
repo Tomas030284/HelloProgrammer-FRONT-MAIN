@@ -1,4 +1,3 @@
-import logo2 from "./images/logo2.png"
 
 function Navbar(){
     return(
